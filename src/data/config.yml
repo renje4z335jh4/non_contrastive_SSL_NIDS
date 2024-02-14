@@ -1,0 +1,11 @@
+UNSW-NB15:
+    cols2remove:
+      - id # sequential, like index
+      - attack_cat
+5G-NIDD:
+    has_index_col: True
+    cols2remove:
+      - Attack Type # obsolete
+      - Attack Tool # obsolete
+    label_name:
+      Label

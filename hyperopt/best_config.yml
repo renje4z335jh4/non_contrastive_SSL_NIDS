@@ -1,0 +1,1074 @@
+5gnidd:
+  BYOL:
+    CNN:
+      ShuffleSwapNoise:
+        lr: 0.001
+        n_epochs: 20
+        p: 0.005438659715289562
+        target_decay_rate: 0.9465515185530355
+      ZeroOutNoise:
+        lr: 0.001
+        n_epochs: 45
+        p: 0.3745401188473625
+        target_decay_rate: 0.9950714306409916
+      gaussiannoise:
+        lr: 0.01
+        mean: 0.31663981442791755
+        n_epochs: 190
+        p: 0.8824755385475779
+        std: 0.713032569074376
+        target_decay_rate: 0.9532024187159738
+      mixup:
+        lr: 0.01
+        mixup_alpha: 0.7316348760724563
+        n_epochs: 10
+        target_decay_rate: 0.959897964396071
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 5
+        target_decay_rate: 0.9880826099733246
+      subsets:
+        lr: 0.01
+        n_epochs: 35
+        n_subsets: 2
+        overlap: 0.5
+        target_decay_rate: 0.9765709153339025
+    FTTransformerEncoder:
+      ShuffleSwapNoise:
+        lr: 0.0001
+        n_epochs: 5
+        p: 0.9988780675283545
+        target_decay_rate: 0.9482970192416286
+      ZeroOutNoise:
+        lr: 0.001
+        n_epochs: 5
+        p: 0.020584494295802447
+        target_decay_rate: 0.9969909852161994
+      gaussiannoise:
+        lr: 1.0e-05
+        mean: 0.8564127283336906
+        n_epochs: 5
+        p: 0.7163071918402317
+        std: 0.2959957589991149
+        target_decay_rate: 0.960181540238545
+      mixup:
+        lr: 0.01
+        mixup_alpha: 0.287148648706569
+        n_epochs: 200
+        target_decay_rate: 0.9352304920192209
+      randomshuffle:
+        lr: 0.0001
+        n_epochs: 45
+        target_decay_rate: 0.9020584494295802
+      subsets:
+        lr: 0.0001
+        n_epochs: 200
+        n_subsets: 5
+        overlap: 0.75
+        target_decay_rate: 0.950791633891408
+    MLP_Encoder:
+      ShuffleSwapNoise:
+        lr: 0.01
+        n_epochs: 140
+        p: 0.8316684676016461
+        target_decay_rate: 0.9202185662405523
+      ZeroOutNoise:
+        lr: 0.0001
+        n_epochs: 45
+        p: 0.9990827707468745
+        target_decay_rate: 0.948563334292723
+      gaussiannoise:
+        lr: 0.01
+        mean: 0.5924145688620425
+        n_epochs: 100
+        p: 0.046450412719997725
+        std: 0.6075448519014384
+        target_decay_rate: 0.9170524123687291
+      mixup:
+        lr: 0.01
+        mixup_alpha: 0.9926695998857422
+        n_epochs: 135
+        target_decay_rate: 0.9977709976075826
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 130
+        target_decay_rate: 0.9712132484472589
+      subsets:
+        lr: 0.01
+        n_epochs: 150
+        n_subsets: 5
+        overlap: 0.0
+        target_decay_rate: 0.927299080157497
+  BarlowTwins:
+    CNN:
+      ShuffleSwapNoise:
+        lambd: 0.01997309189806097
+        lr: 0.001
+        n_epochs: 145
+        p: 0.7861900536912465
+      ZeroOutNoise:
+        lambd: 0.00923181409540513
+        lr: 0.01
+        n_epochs: 35
+        p: 0.9506124833689316
+      gaussiannoise:
+        lambd: 0.013483852021719171
+        lr: 0.001
+        mean: 0.16243768414347848
+        n_epochs: 60
+        p: 0.8468139418718322
+        std: 0.06959953770576743
+      mixup:
+        lambd: 0.0025391051008310465
+        lr: 0.001
+        mixup_alpha: 0.865827198357148
+        n_epochs: 70
+      randomshuffle:
+        lambd: 0.01277585271554666
+        lr: 1.0e-05
+        n_epochs: 5
+      subsets:
+        lambd: 0.006869687708908806
+        lr: 0.001
+        n_epochs: 50
+        n_subsets: 2
+        overlap: 0.25
+    FTTransformerEncoder:
+      ShuffleSwapNoise:
+        lambd: 0.013899319815439523
+        lr: 0.001
+        n_epochs: 165
+        p: 0.11736862716496432
+      ZeroOutNoise:
+        lambd: 0.017484433598916143
+        lr: 0.01
+        n_epochs: 190
+        p: 0.2126270708052097
+      gaussiannoise:
+        lambd: 0.018199354952887638
+        lr: 0.01
+        mean: 0.21005967171467355
+        n_epochs: 200
+        p: 0.46134628987115955
+        std: 0.14374248390036048
+      mixup:
+        lambd: 0.014541268976554713
+        lr: 0.01
+        mixup_alpha: 0.628942846779884
+        n_epochs: 195
+      randomshuffle:
+        lambd: 0.008741722139252527
+        lr: 0.01
+        n_epochs: 80
+      subsets:
+        lambd: 0.006184739646574365
+        lr: 0.001
+        n_epochs: 195
+        n_subsets: 2
+        overlap: 0.25
+    MLP_Encoder:
+      ShuffleSwapNoise:
+        lambd: 0.0058063913314257585
+        lr: 0.01
+        n_epochs: 150
+        p: 0.16507756875758772
+      ZeroOutNoise:
+        lambd: 0.00747636037327168
+        lr: 0.01
+        n_epochs: 140
+        p: 0.5247564316322378
+      gaussiannoise:
+        lambd: 0.013013352105002832
+        lr: 0.01
+        mean: 0.13949386065204183
+        n_epochs: 195
+        p: 0.29214464853521815
+        std: 0.3663618432936917
+      mixup:
+        lambd: 0.01735042334981411
+        lr: 0.0001
+        mixup_alpha: 0.7671158148491672
+        n_epochs: 130
+      randomshuffle:
+        lambd: 0.008741722139252527
+        lr: 0.01
+        n_epochs: 200
+      subsets:
+        lambd: 0.006336744153395832
+        lr: 0.0001
+        n_epochs: 200
+        n_subsets: 5
+        overlap: 0.25
+  SimSiam:
+    CNN:
+      ShuffleSwapNoise:
+        lr: 1.0e-05
+        n_epochs: 5
+        p: 0.7080725777960455
+      ZeroOutNoise:
+        lr: 0.0001
+        n_epochs: 80
+        p: 0.8664109361834135
+      gaussiannoise:
+        lr: 0.0001
+        mean: 0.9259537362922063
+        n_epochs: 10
+        p: 0.8288499495099753
+        std: 0.4231896078998826
+      mixup:
+        lr: 0.0001
+        mixup_alpha: 0.9507143064099162
+        n_epochs: 25
+      randomshuffle:
+        lr: 0.001
+        n_epochs: 5
+      subsets:
+        lr: 1.0e-05
+        n_epochs: 165
+        n_subsets: 5
+        overlap: 0.0
+    FTTransformerEncoder:
+      ShuffleSwapNoise:
+        lr: 0.0001
+        n_epochs: 135
+        p: 0.9355865149687161
+      ZeroOutNoise:
+        lr: 0.01
+        n_epochs: 45
+        p: 0.9503011332697178
+      gaussiannoise:
+        lr: 0.001
+        mean: 0.8324426408004217
+        n_epochs: 125
+        p: 0.21233911067827616
+        std: 0.18182496720710062
+      mixup:
+        lr: 0.01
+        mixup_alpha: 0.2514997652287819
+        n_epochs: 60
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 150
+      subsets:
+        lr: 0.01
+        n_epochs: 145
+        n_subsets: 2
+        overlap: 0.25
+    MLP_Encoder:
+      ShuffleSwapNoise:
+        lr: 0.01
+        n_epochs: 40
+        p: 0.7319939418114051
+      ZeroOutNoise:
+        lr: 1.0e-05
+        n_epochs: 200
+        p: 0.601074166800233
+      gaussiannoise:
+        lr: 0.01
+        mean: 0.7080725777960455
+        n_epochs: 40
+        p: 0.020584494295802447
+        std: 0.9699098521619943
+      mixup:
+        lr: 1.0e-05
+        mixup_alpha: 0.2801653759489181
+        n_epochs: 5
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 200
+      subsets:
+        lr: 1.0e-05
+        n_epochs: 200
+        n_subsets: 5
+        overlap: 0.25
+  VICReg:
+    CNN:
+      ShuffleSwapNoise:
+        lr: 0.001
+        n_epochs: 115
+        p: 0.3745401188473625
+        sim_coeff: 38.52142919229749
+      ZeroOutNoise:
+        lr: 0.001
+        n_epochs: 10
+        p: 0.8853403320047747
+        sim_coeff: 14.50133345329429
+      gaussiannoise:
+        lr: 0.001
+        mean: 0.01948875544826545
+        n_epochs: 145
+        p: 0.8952641606435279
+        sim_coeff: 10.381584098851304
+        std: 0.04997049126285824
+      mixup:
+        lr: 0.001
+        mixup_alpha: 0.529029276960843
+        n_epochs: 5
+        sim_coeff: 36.38901421842338
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 35
+        sim_coeff: 18.991826904890225
+      subsets:
+        lr: 0.001
+        n_epochs: 5
+        n_subsets: 5
+        overlap: 0.5
+        sim_coeff: 22.43584450082044
+    FTTransformerEncoder:
+      ShuffleSwapNoise:
+        lr: 0.001
+        n_epochs: 185
+        p: 0.15601864044243652
+        sim_coeff: 14.67983561008608
+      ZeroOutNoise:
+        lr: 0.001
+        n_epochs: 40
+        p: 0.2671823427778326
+        sim_coeff: 31.040867353062584
+      gaussiannoise:
+        lr: 0.001
+        mean: 0.7001791283429251
+        n_epochs: 130
+        p: 0.06209314684119682
+        sim_coeff: 28.219521077726846
+        std: 0.2086506033667509
+      mixup:
+        lr: 0.001
+        mixup_alpha: 0.7319939418114051
+        n_epochs: 5
+        sim_coeff: 27.959754525911098
+      randomshuffle:
+        lr: 0.001
+        n_epochs: 50
+        sim_coeff: 21.236203565420873
+      subsets:
+        lr: 0.0001
+        n_epochs: 15
+        n_subsets: 2
+        overlap: 0.25
+        sim_coeff: 23.945550042792256
+    MLP_Encoder:
+      ShuffleSwapNoise:
+        lr: 0.0001
+        n_epochs: 200
+        p: 0.8324426408004217
+        sim_coeff: 16.370173320348286
+      ZeroOutNoise:
+        lr: 0.001
+        n_epochs: 5
+        p: 0.3745401188473625
+        sim_coeff: 38.52142919229749
+      gaussiannoise:
+        lr: 0.0001
+        mean: 0.3183505083650031
+        n_epochs: 200
+        p: 0.1482196134325101
+        sim_coeff: 11.670722102498692
+        std: 0.7533624148253596
+      mixup:
+        lr: 0.0001
+        mixup_alpha: 0.8324426408004217
+        n_epochs: 150
+        sim_coeff: 16.370173320348286
+      randomshuffle:
+        lr: 0.001
+        n_epochs: 35
+        sim_coeff: 38.52142919229749
+      subsets:
+        lr: 0.0001
+        n_epochs: 5
+        n_subsets: 3
+        overlap: 0.25
+        sim_coeff: 12.56507807679684
+  WMSE:
+    CNN:
+      ShuffleSwapNoise:
+        lr: 0.0001
+        n_epochs: 30
+        p: 0.863609101468529
+        w_eps: 0.4713294251953024
+        w_iter: 7
+        w_momentum: 0.004348175675676247
+        w_size: 64
+      ZeroOutNoise:
+        lr: 0.01
+        n_epochs: 195
+        p: 0.9543824341167784
+        w_eps: 0.45517200485921955
+        w_iter: 2
+        w_momentum: 0.41374426299832445
+        w_size: 128
+      gaussiannoise:
+        lr: 0.001
+        mean: 0.29979709835839774
+        n_epochs: 60
+        p: 0.9634361631153437
+        std: 0.7608655554594528
+        w_eps: 0.66474460890477
+        w_iter: 2
+        w_momentum: 0.9486535017029244
+        w_size: 256
+      mixup:
+        lr: 0.0001
+        mixup_alpha: 0.31388152785011336
+        n_epochs: 185
+        w_eps: 0.18757240705274525
+        w_iter: 4
+        w_momentum: 0.304168782091094
+        w_size: 256
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 185
+        w_eps: 0.9908862043412469
+        w_iter: 9
+        w_momentum: 0.029370978035122897
+        w_size: 512
+      subsets:
+        lr: 1.0e-05
+        n_epochs: 200
+        n_subsets: 3
+        overlap: 0.0
+        w_eps: 0.08790509048650103
+        w_iter: 6
+        w_momentum: 0.5011243642445827
+        w_size: 512
+    FTTransformerEncoder:
+      ShuffleSwapNoise:
+        lr: 1.0e-05
+        n_epochs: 180
+        p: 0.8126641456840805
+        w_eps: 0.8719433375854847
+        w_iter: 5
+        w_momentum: 0.8208180098772435
+        w_size: 64
+      ZeroOutNoise:
+        lr: 1.0e-05
+        n_epochs: 5
+        p: 0.8373804728619939
+        w_eps: 0.03046872854858214
+        w_iter: 8
+        w_momentum: 0.42771933229948866
+        w_size: 128
+      gaussiannoise:
+        lr: 0.0001
+        mean: 0.34745065958706833
+        n_epochs: 145
+        p: 0.43120504151177175
+        std: 0.20202328511346268
+        w_eps: 0.2502030943393373
+        w_iter: 3
+        w_momentum: 0.5456557687862691
+        w_size: 256
+      mixup:
+        lr: 0.01
+        mixup_alpha: 0.20380048241209847
+        n_epochs: 190
+        w_eps: 0.28332433820054237
+        w_iter: 2
+        w_momentum: 0.29046838619747983
+        w_size: 64
+      randomshuffle:
+        lr: 0.001
+        n_epochs: 5
+        w_eps: 0.6962297988357548
+        w_iter: 4
+        w_momentum: 0.687843887188883
+        w_size: 128
+      subsets:
+        lr: 0.01
+        n_epochs: 190
+        n_subsets: 5
+        overlap: 0.0
+        w_eps: 0.6198846918990264
+        w_iter: 6
+        w_momentum: 0.22125667316309994
+        w_size: 64
+    MLP_Encoder:
+      ShuffleSwapNoise:
+        lr: 0.01
+        n_epochs: 55
+        p: 0.6237142267986564
+        w_eps: 0.9065365887983678
+        w_iter: 3
+        w_momentum: 0.32051168084002013
+        w_size: 128
+      ZeroOutNoise:
+        lr: 1.0e-05
+        n_epochs: 190
+        p: 0.9565594469438328
+        w_eps: 0.4621554104163901
+        w_iter: 7
+        w_momentum: 0.0474711349134842
+        w_size: 128
+      gaussiannoise:
+        lr: 0.01
+        mean: 0.28694570117110685
+        n_epochs: 185
+        p: 0.6191616669752553
+        std: 0.9579107123428923
+        w_eps: 0.4608814575987801
+        w_iter: 5
+        w_momentum: 0.30716819749993607
+        w_size: 512
+      mixup:
+        lr: 0.0001
+        mixup_alpha: 0.2617705639856155
+        n_epochs: 125
+        w_eps: 0.9437141724511425
+        w_iter: 5
+        w_momentum: 0.21438840253330582
+        w_size: 256
+      randomshuffle:
+        lr: 0.001
+        n_epochs: 200
+        w_eps: 0.4790885414985622
+        w_iter: 6
+        w_momentum: 0.58314145145809
+        w_size: 128
+      subsets:
+        lr: 0.0001
+        n_epochs: 95
+        n_subsets: 5
+        overlap: 0.0
+        w_eps: 0.7436709466813661
+        w_iter: 1
+        w_momentum: 0.23799861978730907
+        w_size: 128
+unswnb15:
+  BYOL:
+    CNN:
+      ShuffleSwapNoise:
+        lr: 1.0e-05
+        n_epochs: 140
+        p: 0.9200387730983527
+        target_decay_rate: 0.9799193140653566
+      ZeroOutNoise:
+        lr: 1.0e-05
+        n_epochs: 5
+        p: 0.8369386213294245
+        target_decay_rate: 0.9308353563322808
+      gaussiannoise:
+        lr: 1.0e-05
+        mean: 0.052610715087953674
+        n_epochs: 195
+        p: 0.5079586019199669
+        std: 0.43121759717092567
+        target_decay_rate: 0.9954704699384943
+      mixup:
+        lr: 0.0001
+        mixup_alpha: 0.75073936578653
+        n_epochs: 40
+        target_decay_rate: 0.9502299688366707
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 5
+        target_decay_rate: 0.9374540118847363
+      subsets:
+        lr: 0.01
+        n_epochs: 80
+        n_subsets: 3
+        overlap: 0.0
+        target_decay_rate: 0.9178325724856147
+    FTTransformerEncoder:
+      ShuffleSwapNoise:
+        lr: 0.001
+        n_epochs: 140
+        p: 0.3745401188473625
+        target_decay_rate: 0.9950714306409916
+      ZeroOutNoise:
+        lr: 0.01
+        n_epochs: 5
+        p: 0.11496794841061886
+        target_decay_rate: 0.919849822102595
+      gaussiannoise:
+        lr: 0.01
+        mean: 0.18489383318269315
+        n_epochs: 60
+        p: 0.42821212130125574
+        std: 0.9215346762215575
+        target_decay_rate: 0.9377369092086293
+      mixup:
+        lr: 0.01
+        mixup_alpha: 0.9572855351199271
+        n_epochs: 100
+        target_decay_rate: 0.9048186821289591
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 5
+        target_decay_rate: 0.9598018364836637
+      subsets:
+        lr: 0.0001
+        n_epochs: 200
+        n_subsets: 5
+        overlap: 0.5
+        target_decay_rate: 0.9585454864888578
+    MLP_Encoder:
+      ShuffleSwapNoise:
+        lr: 1.0e-05
+        n_epochs: 10
+        p: 0.7903282086868517
+        target_decay_rate: 0.9007684622974177
+      ZeroOutNoise:
+        lr: 1.0e-05
+        n_epochs: 5
+        p: 0.4371610242513909
+        target_decay_rate: 0.9320742055593428
+      gaussiannoise:
+        lr: 0.0001
+        mean: 0.7977631281864912
+        n_epochs: 5
+        p: 0.987363974285478
+        std: 0.611344433044531
+        target_decay_rate: 0.948492575467674
+      mixup:
+        lr: 1.0e-05
+        mixup_alpha: 0.18182496720710062
+        n_epochs: 5
+        target_decay_rate: 0.9183404509853434
+      randomshuffle:
+        lr: 0.01
+        n_epochs: 30
+        target_decay_rate: 0.9374540118847363
+      subsets:
+        lr: 0.01
+        n_epochs: 105
+        n_subsets: 5
+        overlap: 0.0
+        target_decay_rate: 0.9271736628453919
+  BarlowTwins:
+    CNN:
+      ShuffleSwapNoise:
+        lambd: 0.006593935863364233
+        lr: 0.01
+        n_epochs: 15
+        p: 0.5253407499073715
+      ZeroOutNoise:
+        lambd: 0.008741722139252527
+        lr: 1.0e-05
+        n_epochs: 5
+        p: 0.9507143064099162
+      gaussiannoise:
+        lambd: 0.016926118180386446
+        lr: 1.0e-05
+        mean: 0.11232854581677065
+        n_epochs: 50
+        p: 0.210308620165499
+        std: 0.857623902224008
+      mixup:
+        lambd: 0.007304316164731479
+        lr: 0.01
+        mixup_alpha: 0.28954707037487515
+        n_epochs: 95
+      randomshuffle:
+        lambd: 0.01474530640032882
+        lr: 1.0e-05
+        n_epochs: 20
+      subsets:
+        lambd: 0.004692688897932314
+        lr: 0.001
+        n_epochs: 200
+        n_subsets: 3
+        overlap: 0.25
+    FTTransformerEncoder:
+      ShuffleSwapNoise:
+        lambd: 0.013225900729567714
+        lr: 0.01
+        n_epochs: 200
+        p: 0.3072086975367807
+      ZeroOutNoise:
+        lambd: 0.012209619897779744
+        lr: 0.01
+        n_epochs: 5
+        p: 0.05067455612076188
+      gaussiannoise:
+        lambd: 0.01588063142768166
+        lr: 0.001
+        mean: 0.21568136412228356
+        n_epochs: 10
+        p: 0.7085297290391788
+        std: 0.004570562831662683
+      mixup:
+        lambd: 0.007643164622467043
+        lr: 0.01
+        mixup_alpha: 0.5242817229450047
+        n_epochs: 10
+      randomshuffle:
+        lambd: 0.019112857515378494
+        lr: 0.0001
+        n_epochs: 95
+      subsets:
+        lambd: 0.010868590614924992
+        lr: 0.001
+        n_epochs: 195
+        n_subsets: 2
+        overlap: 0.75
+    MLP_Encoder:
+      ShuffleSwapNoise:
+        lambd: 0.007801660481526674
+        lr: 1.0e-05
+        n_epochs: 5
+        p: 0.9509721718705997
+      ZeroOutNoise:
+        lambd: 0.00240391605931029
+        lr: 0.01
+        n_epochs: 185
+        p: 0.9682443294035916
+      gaussiannoise:
+        lambd: 0.0028859350638815407
+        lr: 0.01
+        mean: 0.018483200013226453
+        n_epochs: 5
+        p: 0.6005057333057314
+        std: 0.7238269471944546
+      mixup:
+        lambd: 0.0033993185958474887
+        lr: 0.0001
+        mixup_alpha: 0.8670937452393123
+        n_epochs: 25
+      randomshuffle:
+        lambd: 0.002370520897324444
+        lr: 0.01
+        n_epochs: 100
+      subsets:
+        lambd: 0.009923069711831538
+        lr: 0.01
+        n_epochs: 200
+        n_subsets: 5
+        overlap: 0.75
+  SimSiam:
+    CNN:
+      ShuffleSwapNoise:
+        lr: 1.0e-05
+        n_epochs: 5
+        p: 0.3745401188473625
+      ZeroOutNoise:
+        lr: 1.0e-05
+        n_epochs: 190
+        p: 0.731959720586739
+      gaussiannoise:
+        lr: 0.01
+        mean: 0.40352209104398884
+        n_epochs: 5
+        p: 0.7670539907462174
+        std: 0.9587069919357701
+      mixup:
+        lr: 0.01
+        mixup_alpha: 0.9507143064099162
+        n_epochs: 200
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 5
+      subsets:
+        lr: 0.0001
+        n_epochs: 120
+        n_subsets: 4
+        overlap: 0.0
+    FTTransformerEncoder:
+      ShuffleSwapNoise:
+        lr: 0.01
+        n_epochs: 40
+        p: 0.3216186235656705
+      ZeroOutNoise:
+        lr: 0.001
+        n_epochs: 10
+        p: 0.2826475684804792
+      gaussiannoise:
+        lr: 0.001
+        mean: 0.10136862522340351
+        n_epochs: 125
+        p: 0.5141441177486216
+        std: 0.5299816049923661
+      mixup:
+        lr: 0.0001
+        mixup_alpha: 0.9508243238130908
+        n_epochs: 35
+      randomshuffle:
+        lr: 0.001
+        n_epochs: 115
+      subsets:
+        lr: 0.01
+        n_epochs: 10
+        n_subsets: 2
+        overlap: 0.25
+    MLP_Encoder:
+      ShuffleSwapNoise:
+        lr: 0.01
+        n_epochs: 165
+        p: 0.9371459535119298
+      ZeroOutNoise:
+        lr: 0.01
+        n_epochs: 35
+        p: 0.9505851629775354
+      gaussiannoise:
+        lr: 1.0e-05
+        mean: 0.4601549694026576
+        n_epochs: 5
+        p: 0.9719860715499137
+        std: 0.7446485311548935
+      mixup:
+        lr: 0.0001
+        mixup_alpha: 0.3745401188473625
+        n_epochs: 5
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 65
+      subsets:
+        lr: 1.0e-05
+        n_epochs: 5
+        n_subsets: 5
+        overlap: 0.75
+  VICReg:
+    CNN:
+      ShuffleSwapNoise:
+        lr: 0.0001
+        n_epochs: 5
+        p: 0.020584494295802447
+        sim_coeff: 39.097295564859834
+      ZeroOutNoise:
+        lr: 1.0e-05
+        n_epochs: 5
+        p: 0.018620717504165385
+        sim_coeff: 23.149597578047885
+      gaussiannoise:
+        lr: 0.0001
+        mean: 0.08225936395970035
+        n_epochs: 125
+        p: 0.16634724700759373
+        sim_coeff: 38.25839397357001
+        std: 0.9463254758775677
+      mixup:
+        lr: 1.0e-05
+        mixup_alpha: 0.63162714948436
+        n_epochs: 5
+        sim_coeff: 25.727343558157983
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 5
+        sim_coeff: 31.95983200306693
+      subsets:
+        lr: 0.0001
+        n_epochs: 10
+        n_subsets: 3
+        overlap: 0.25
+        sim_coeff: 39.22684493198667
+    FTTransformerEncoder:
+      ShuffleSwapNoise:
+        lr: 0.01
+        n_epochs: 55
+        p: 0.15214428714913164
+        sim_coeff: 26.46979721393252
+      ZeroOutNoise:
+        lr: 0.01
+        n_epochs: 60
+        p: 0.5387419189067016
+        sim_coeff: 38.47065127141464
+      gaussiannoise:
+        lr: 0.01
+        mean: 0.058410851945117415
+        n_epochs: 175
+        p: 0.1288269351899073
+        sim_coeff: 26.511715914754753
+        std: 0.869618022265387
+      mixup:
+        lr: 0.001
+        mixup_alpha: 0.6144968309510984
+        n_epochs: 110
+        sim_coeff: 39.65493894731562
+      randomshuffle:
+        lr: 0.001
+        n_epochs: 200
+        sim_coeff: 17.449218724740792
+      subsets:
+        lr: 0.001
+        n_epochs: 200
+        n_subsets: 2
+        overlap: 0.0
+        sim_coeff: 35.10615467513462
+    MLP_Encoder:
+      ShuffleSwapNoise:
+        lr: 1.0e-05
+        n_epochs: 30
+        p: 0.9990827707468745
+        sim_coeff: 24.569000287816895
+      ZeroOutNoise:
+        lr: 0.0001
+        n_epochs: 20
+        p: 1.9811375739966343e-05
+        sim_coeff: 35.38227161812877
+      gaussiannoise:
+        lr: 0.001
+        mean: 0.9204465208906117
+        n_epochs: 115
+        p: 0.6582054491899476
+        sim_coeff: 18.733358472490877
+        std: 0.6119958688674658
+      mixup:
+        lr: 0.0001
+        mixup_alpha: 0.48878034707619655
+        n_epochs: 10
+        sim_coeff: 16.13001738464968
+      randomshuffle:
+        lr: 1.0e-05
+        n_epochs: 70
+        sim_coeff: 31.242686795009302
+      subsets:
+        lr: 0.01
+        n_epochs: 95
+        n_subsets: 5
+        overlap: 0.0
+        sim_coeff: 27.722896850654617
+  WMSE:
+    CNN:
+      ShuffleSwapNoise:
+        lr: 1.0e-05
+        n_epochs: 185
+        p: 0.33172700151190804
+        w_eps: 0.19590155367091855
+        w_iter: 3
+        w_momentum: 0.6749608505723624
+        w_size: 512
+      ZeroOutNoise:
+        lr: 0.001
+        n_epochs: 35
+        p: 0.5899487529029862
+        w_eps: 0.1883487248092248
+        w_iter: 3
+        w_momentum: 0.9339946689793557
+        w_size: 256
+      gaussiannoise:
+        lr: 0.001
+        mean: 0.6652156893152653
+        n_epochs: 35
+        p: 0.21032037777521262
+        std: 0.5054360570386853
+        w_eps: 0.8152474784400799
+        w_iter: 9
+        w_momentum: 0.13921462308023813
+        w_size: 64
+      mixup:
+        lr: 0.001
+        mixup_alpha: 0.7810151038719777
+        n_epochs: 5
+        w_eps: 0.20325548197201831
+        w_iter: 2
+        w_momentum: 0.12979387270743492
+        w_size: 64
+      randomshuffle:
+        lr: 0.0001
+        n_epochs: 5
+        w_eps: 0.44904544370717675
+        w_iter: 6
+        w_momentum: 0.4046479078911769
+        w_size: 512
+      subsets:
+        lr: 0.001
+        n_epochs: 75
+        n_subsets: 4
+        overlap: 0.5
+        w_eps: 0.23285067449595967
+        w_iter: 8
+        w_momentum: 0.6151809482293922
+        w_size: 256
+    FTTransformerEncoder:
+      ShuffleSwapNoise:
+        lr: 0.0001
+        n_epochs: 125
+        p: 0.004243648611184758
+        w_eps: 0.34695407863031796
+        w_iter: 7
+        w_momentum: 0.9444769489812561
+        w_size: 128
+      ZeroOutNoise:
+        lr: 0.001
+        n_epochs: 155
+        p: 0.6954515614572188
+        w_eps: 0.5646211487277296
+        w_iter: 9
+        w_momentum: 0.19333355543873354
+        w_size: 512
+      gaussiannoise:
+        lr: 1.0e-05
+        mean: 0.25532305121733234
+        n_epochs: 20
+        p: 0.6120433630604784
+        std: 0.780444379647233
+        w_eps: 0.11135036583485704
+        w_iter: 1
+        w_momentum: 0.40310721981575826
+        w_size: 256
+      mixup:
+        lr: 0.001
+        mixup_alpha: 0.6735735142853811
+        n_epochs: 70
+        w_eps: 0.1622659372278071
+        w_iter: 9
+        w_momentum: 0.8299323106293459
+        w_size: 64
+      randomshuffle:
+        lr: 0.01
+        n_epochs: 130
+        w_eps: 0.6108356124147316
+        w_iter: 2
+        w_momentum: 0.03281549469492184
+        w_size: 128
+      subsets:
+        lr: 0.01
+        n_epochs: 145
+        n_subsets: 5
+        overlap: 0.25
+        w_eps: 0.4803534554299435
+        w_iter: 3
+        w_momentum: 0.5413502447824858
+        w_size: 128
+    MLP_Encoder:
+      ShuffleSwapNoise:
+        lr: 0.01
+        n_epochs: 145
+        p: 0.9950763854906229
+        w_eps: 0.8439593021225135
+        w_iter: 4
+        w_momentum: 0.5924354275078517
+        w_size: 256
+      ZeroOutNoise:
+        lr: 0.01
+        n_epochs: 55
+        p: 0.8547727461999922
+        w_eps: 0.19621931233586465
+        w_iter: 2
+        w_momentum: 0.4752330421586354
+        w_size: 64
+      gaussiannoise:
+        lr: 0.0001
+        mean: 0.20778422120247309
+        n_epochs: 200
+        p: 0.6624991261325821
+        std: 0.8204737921353467
+        w_eps: 0.00027439190001660353
+        w_iter: 8
+        w_momentum: 0.3154552025819479
+        w_size: 512
+      mixup:
+        lr: 0.001
+        mixup_alpha: 0.08920743527449915
+        n_epochs: 115
+        w_eps: 0.9978680288295279
+        w_iter: 8
+        w_momentum: 0.9409248254603569
+        w_size: 512
+      randomshuffle:
+        lr: 0.0001
+        n_epochs: 5
+        w_eps: 0.9614918040584755
+        w_iter: 9
+        w_momentum: 0.9406685437537647
+        w_size: 64
+      subsets:
+        lr: 0.001
+        n_epochs: 200
+        n_subsets: 5
+        overlap: 0.5
+        w_eps: 0.37888084978261416
+        w_iter: 5
+        w_momentum: 0.18699793671758314
+        w_size: 512
