@@ -56,7 +56,7 @@ Similarly the baselines *Deep AutoEncoder* and *DeepSVDD* are tuned with
 src/hyperopt/full_hyperopt_baselines.sh
 ```
 
-Note: This could take an enormous amount of time and resources!
+Note: This could take a significant amount of time and resources!
 
 ### Model Training
 The hyper-parameters collected in the tuning step are stored in a [YAML file](hyperopt/best_config.yml). The final results are gathered by training the different models with the best hyper-parameters for 10 runs and average the model performances. This is done by executing
