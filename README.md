@@ -51,7 +51,7 @@ Step by step the script is optimizing:
 2. Learning rate
 3. Number of epochs to train the model
 
-Similarly the baselines *Robust Deep AutoEncoder* are *DeepSVDD* are tuned with
+Similarly the baselines * Deep AutoEncoder* and *DeepSVDD* are tuned with
 ```bash
 src/hyperopt/full_hyperopt_baselines.sh
 ```
