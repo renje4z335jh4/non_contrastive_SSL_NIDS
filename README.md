@@ -76,4 +76,4 @@ python src/utils/run_baselines.py
 1. Parameter like model, batch_size, n_epochs, device are self-explaining
 2. anomaly_label parameter indicates which label is the malicious label (commonly 1)
 3. ckpt_root - if given a checkpoint will be saved every 5 epochs. Set to None, if you only want to save the model regularly
-4. safe_best_model - if given the trainer will safe the best model (lowest loss) as checkpoint.
+4. safe_best_model - if given the trainer will save the best model (lowest loss) as checkpoint.
