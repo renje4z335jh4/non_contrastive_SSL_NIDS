@@ -38,7 +38,7 @@ python src/data/process.py UNSW-NB15 -d data/raw/UNSW-NB15/ -o data/processed/
 
 ## Reproduce the Experiments
 
-### Hypertuning
+### Hyperparameter tuning
 To reproduce the experiments of the paper, we will start by executing the hyper-optimization. This can be simply done by executing:
 ```bash
 src/hyperopt/full_hyperopt.sh
