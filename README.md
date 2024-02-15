@@ -25,7 +25,7 @@ Please extract the csv-file in 'data/raw/5GNIDD/'
 
 Please extract the csv-file in 'data/raw/UNSW-NB15/'
 
-## Processing the Data Sets
+## Processing the Datasets
 The [process script](./src/data/process.py) can be used as follows:
 ```bash
 python src/data/process.py [data_set] -d [path/to/dir/containing/the/CSV/files] -o [path/to/output/dir]
