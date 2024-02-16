@@ -18,7 +18,7 @@ pip install -e .
 You can download the `Combined.zip` [here](https://etsin.fairdata.fi/dataset/9d13ef28-2ca7-44b0-9950-225359afac65/data)
 Please extract the csv-file in 'data/raw/5GNIDD/'
 
-### UNSW-NB15
+### UNSW-NB15 (If the links get expired, check the official website of the dataset)
 `UNSW_NB15_Test.csv`: [here](https://unsw-my.sharepoint.com/:x:/r/personal/z5025758_ad_unsw_edu_au/_layouts/15/Doc.aspx?sourcedoc=%7B2A810F6A-CC3D-4D98-909E-37489D8DAF98%7D&file=UNSW_NB15_testing-set.csv&action=default&mobileredirect=true)
 
 `UNSW_NB15_Train.csv`: [here](https://unsw-my.sharepoint.com/:x:/r/personal/z5025758_ad_unsw_edu_au/_layouts/15/Doc.aspx?sourcedoc=%7B49413D38-3330-4358-BFA2-0349031198A5%7D&file=UNSW_NB15_training-set.csv&action=default&mobileredirect=true)
