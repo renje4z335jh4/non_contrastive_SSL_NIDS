@@ -1,6 +1,6 @@
 ==============================
 
-Optimized hyperparameters can be found for the non-constrastive SSL models in [best_config.yml]('[hyperopt/best_config.yml](https://github.com/renje4z335jh4/non_contrastive_SSL_NIDS/blob/main/hyperopt/best_config.yml)') and the optimized hyperparameters are stored in [best_config_baselines.yml]('hyperopt/baselines/best_config_baselines.yml')
+Optimized hyperparameters can be found for the non-constrastive SSL models in [best_config.yml]('hyperopt/best_config.yml') and the optimized hyperparameters are stored in [best_config_baselines.yml]('hyperopt/baselines/best_config_baselines.yml')
 
 # Installation
 ```bash
